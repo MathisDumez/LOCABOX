@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 04 fév. 2025 à 11:48
+-- Généré le : ven. 07 fév. 2025 à 11:44
 -- Version du serveur :  10.4.13-MariaDB
 -- Version de PHP : 7.4.7
 
@@ -117,16 +117,17 @@ CREATE TABLE `rent` (
   `id_box` int(11) NOT NULL,
   `rent_number` int(11) NOT NULL,
   `start_reservation_date` datetime NOT NULL,
-  `end_reservation_date` datetime NOT NULL
+  `end_reservation_date` datetime NOT NULL,
+  `status` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `rent`
 --
 
-INSERT INTO `rent` (`id_user_box`, `id_box`, `rent_number`, `start_reservation_date`, `end_reservation_date`) VALUES
-(2, 3, 1, '2025-02-04 12:00:00', '2026-02-05 11:00:00'),
-(2, 4, 2, '2025-02-07 15:00:00', '2026-06-08 14:00:00');
+INSERT INTO `rent` (`id_user_box`, `id_box`, `rent_number`, `start_reservation_date`, `end_reservation_date`, `status`) VALUES
+(2, 3, 1, '2025-02-04 12:00:00', '2026-02-05 11:00:00', ''),
+(2, 4, 2, '2025-02-07 15:00:00', '2026-06-08 14:00:00', '');
 
 -- --------------------------------------------------------
 
