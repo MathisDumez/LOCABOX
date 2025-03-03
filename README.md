@@ -1,5 +1,5 @@
 # LOCABOX
-Gestion d’accès à des Boxes - Projet BTS CIEL 2éme Année - 2024-2025
+Gestion d’accès à des Boxes - Projet BTS CIEL 2ème Année - 2024-2025
 
 **Contexte du projet :**
 
